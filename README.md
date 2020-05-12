@@ -5,6 +5,7 @@ First of all you need to create a Maven project and then add a java file with th
 
 ## Code
 
+//Author: alejandro Botero botero5@hotmail.com
 import java.util.Properties;
 import javax.mail.Address;
 import javax.mail.BodyPart;
@@ -21,6 +22,7 @@ import javax.mail.search.SearchTerm;
 import javax.mail.search.SubjectTerm;
 
 public class GetMails {
+
         public static void main(String[] args) {
             Properties props = System.getProperties();
             props.setProperty("mail.store.protocol", "imaps");
