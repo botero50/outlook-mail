@@ -19,9 +19,7 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.search.FromTerm;
 import javax.mail.search.SearchTerm;
 import javax.mail.search.SubjectTerm;
-
 public class GetMails {
-
         public static void main(String[] args) {
             Properties props = System.getProperties();
             props.setProperty("mail.store.protocol", "imaps");
