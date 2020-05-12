@@ -4,7 +4,7 @@ This is a demo of how to get e-mails from the API using Imap Pop3
 First of all you need to create a Maven project and then add a java file with this code
 
 ## Code
-
+```
 //Author: alejandro Botero botero5@hotmail.com
 import java.util.Properties;
 import javax.mail.Address;
@@ -90,9 +90,9 @@ public class GetMails {
             return false;
         };
     }
-    
+```
  ## POM - Add this to the pom
- 
+```
   <dependency>
 		    <groupId>com.sun.mail</groupId>
 		    <artifactId>pop3</artifactId>
@@ -165,6 +165,7 @@ public class GetMails {
         </plugins>
         
     </build>
-    
+```
+
  ## Required Library - Download the JavaMail library and import it in the project using java building path / add external jars
  https://www.oracle.com/technetwork/java/index-138643.html
